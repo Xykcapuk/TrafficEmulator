@@ -1,24 +1,24 @@
-# trafficlightemulator
-
-## Project setup
+# Traffic Light Emulator on Vue.js
+## Описание:
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+Эмулятор светофора.
+__________________________
+Цвета меняются циклично в зависимости от времени на секундомере:
+красный->желтый->зеленый->желтый->красный->...
+Когда остается менее 3-х секунд, выбранный цвет начинает мигать.
+При смене цвета меняется route - /red /yellow /green
+Начать можно с любого цвета изменив route в адресной строке
+__________________________
 ```
 
-### Lints and fixes files
+### Установка:
 ```
-npm run lint
+1) git clone https://github.com/Xykcapuk/TrafficEmulator.git
+2) cd vuejs-traffic-light-simulator
+3) npm install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Запуск:
+```
+npm run start || npm start
+```
